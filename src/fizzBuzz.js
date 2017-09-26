@@ -1,5 +1,5 @@
 var FizzBuzz = function(){};
 
 FizzBuzz.prototype.isDivisibleByThree = function(number) {
-  return true;
+  return (number % 3 === 0);
 };
